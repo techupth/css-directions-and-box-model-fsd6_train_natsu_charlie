@@ -5,7 +5,7 @@
 }
 
 .box-out {
-    border: 16px solid lightgray;
+    /* border: 16px solid lightgray; */
     background-color: black;
     padding: 16px;
     height: 100vh;
