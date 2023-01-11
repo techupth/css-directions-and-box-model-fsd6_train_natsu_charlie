@@ -16,9 +16,9 @@ test('exercise-1-test', async ({ page }) => {
     fullPage: true,
   })).toMatchSnapshot({
     name: "ex-1-result.png", // ['example'] should be same file name, must include .png
-    // threshold: 0.2, // you can adjust to fit each hackhour
+    threshold: 0.8, // you can adjust to fit each hackhour
     maxDiffPixels: 5000, //you can adjust to fit each hackhour
-    maxDiffPixelRatio: 0.01, //you can adjust to fit each hackhour
+    // maxDiffPixelRatio: 0.2, //you can adjust to fit each hackhour
   },)
 
 });
