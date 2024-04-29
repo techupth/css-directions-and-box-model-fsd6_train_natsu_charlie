@@ -1,1 +1,29 @@
 /* Start coding here */
+* {
+  background-color: lightgrey;
+}
+
+.outer-box {
+  height: 100vh;
+  width: 100vw;
+  background-color: crimson;
+  margin: 16px;
+  border: 16px solid black;
+  padding: 24px;
+}
+
+.inner-box {
+  height: 100%;
+  width: 100%;
+  background-color: khaki;
+}
+
+.text {
+  display: inline-block;
+  background-color: khaki;
+  margin: 30px;
+  margin-left: 20%;
+  width: 60%;
+  font-size: 40px;
+  text-align: center;
+}
