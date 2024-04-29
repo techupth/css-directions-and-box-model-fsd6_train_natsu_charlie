@@ -1,1 +1,38 @@
 /* Start coding here */
+* {
+  margin: 0;
+  padding: 0;
+}
+.title {
+  background-color: lightslategray;
+  height: 100px;
+  color: darkblue;
+}
+.text-title {
+  padding-top: 30px;
+  padding-left: 30px;
+}
+.container {
+  background-color: lightsteelblue;
+  width: 500px;
+  border: 3px solid darkblue;
+  margin-top: 20px;
+  margin-left: 30px;
+  margin-bottom: 10px;
+}
+.head-message {
+  color: darkblue;
+  font-size: 10px;
+  margin: 10px;
+}
+img {
+  display: block;
+  width: 400px;
+  height: 200px;
+  margin-left: 10px;
+}
+.text {
+  color: darkblue;
+  font-size: 14px;
+  margin-left: 10px;
+}

@@ -1,1 +1,23 @@
 /* Start coding here */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  font-family: "Times New Roman", Times, serif;
+  height: 400px;
+  background-color: khaki;
+  border: 24px solid crimson;
+  text-align: center;
+}
+.black {
+  height: 432px;
+  background-color: black;
+  padding: 16px;
+}
+.lightgray {
+  background-color: lightgray;
+  height: 464px;
+  padding: 16px;
+}
