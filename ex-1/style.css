@@ -1,1 +1,18 @@
 /* Start coding here */
+header {
+  background-color: #9797be;
+  padding: 10px 10px 10px 50px;
+}
+.main-content {
+  padding: 30px 0px 0px 50px;
+}
+.blog {
+  width: 500px;
+  margin-bottom: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border: 2px;
+  border-style: solid;
+  border-color: gray;
+  background-color: lightgray;
+}
