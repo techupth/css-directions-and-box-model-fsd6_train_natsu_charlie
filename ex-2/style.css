@@ -1,1 +1,25 @@
 /* Start coding here */
+.inside {
+  width: 900px;
+  height: 450px;
+  padding: 16px;
+  border: 16px solid black;
+  box-shadow: inset 0 0 0 24px crimson;
+  background-color: yellow;
+  display: flex;
+  justify-content: center;
+  font-size: 24px;
+}
+
+.outside {
+  width: 932px;
+  height: 482px;
+  background-color: lightgray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+* {
+  box-sizing: border-box;
+}
